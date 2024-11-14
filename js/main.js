@@ -25,7 +25,7 @@ ingresoapellido();
 alert("Bienvenid@ " + nombreingresado + " " + apellidoingresado);
 
 //* buscador de productos
-
+/*
 function Producto(nombre, precio) {
     this.nombre = nombre;
     this.precio = precio;
@@ -64,6 +64,7 @@ if (terminoBusqueda) {
 } else {
     console.log("No se ingresó ningún término de búsqueda.");
 }
+/**/
 
 //carrusel de fotos
 let slideIndex = 0;
