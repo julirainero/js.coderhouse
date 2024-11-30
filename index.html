@@ -24,7 +24,7 @@
                 <a class="nav-link" href="./html/planes.html">PLANES</a>
               </li>
               <li class="nav-item"></li>
-                <a class="nav-link" href="./html/recetas.html">RECETAS SIN HARINAS</a>
+                <a class="nav-link" href="./html/Calculadora.html">CALCULADORA DE CALORIAS</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -51,10 +51,32 @@
           <a href="./html/planes.html">PLANES PARA VOS Y TU FAMILIA</a>
         </div>
         <div class="card">
-          <a href="./html/recetas.html">RECETAS SIN HARINAS</a>
+          <a href="./html/Calculadora.html">CALCULADORA DE CALORIAS</a>
         </div>
       </section>
-      
+      <div class="modal fade" id="nameModal" tabindex="-1" aria-labelledby="nameModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="nameModalLabel">¡Bienvenid@ a NutricionistaYA!</h5>
+            </div>
+            <div class="modal-body">
+              <form id="userForm">
+                <div class="mb-3">
+                  <label for="userName" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="userName" required>
+                </div>
+                <div class="mb-3">
+                  <label for="userLastName" class="form-label">Apellido</label>
+                  <input type="text" class="form-control" id="userLastName" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+  
 
 
       
